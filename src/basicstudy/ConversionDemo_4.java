@@ -1,6 +1,6 @@
 package basicstudy;
 
-public class ConversionDemo {
+public class ConversionDemo_4 {
     /*
     * 类型转换的分类：
     *    自动（隐式）类型转换：

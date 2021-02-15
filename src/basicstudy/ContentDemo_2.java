@@ -1,6 +1,6 @@
 package basicstudy;
 
-public class ContentDemo {
+public class ContentDemo_2 {
     /*
     快捷方式：
         main方法的快捷键： psvm

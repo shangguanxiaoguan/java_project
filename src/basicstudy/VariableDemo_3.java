@@ -1,6 +1,6 @@
 package basicstudy;
 
-public class VariableDemo {
+public class VariableDemo_3 {
     /*
      变量的概念：
         在程序执行的过程中，其值可以在某个范围内发生变化的值

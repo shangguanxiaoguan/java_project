@@ -1,6 +1,6 @@
 package basicstudy;
 
-public class IdentifierDemo {
+public class IdentifierDemo_5 {
     /*
     * 1。标识符：给类/方法/变量/常量等起名字的字符序列
     * 2。标识符的组成：英文大小写字母，数字，下划线，美元符号
