@@ -8,6 +8,13 @@ public class ForDemo_10 {
      *    while循环
      *    do...while循环
      *
+     * 2。三种循环结构的区别：
+     *    A。格式不同
+     *    B。初始化语句不同
+     *    C。循环体的执行次数不同
+     *    D。使用场景不同
+     *
+     *
      * */
 
     public static void main(String[] args) {
