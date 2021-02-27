@@ -63,10 +63,25 @@ package objectorientedstudy;
  *
  */
 
+/**
+ *   构造方法：
+ *       要求：
+ *            方法名必须与类名相同（包括大小值）
+ *            没有返回值（但是里面可以写return）
+ *            没有返回值类型（连void都不能写）
+ *       注意事项：
+ *            若未提供任何构造方法，系统会给出默认无参构造
+ *            若已提供构造方法，系统不再提供无参构造
+ *            构造方法可以重载
+ *
+ */
+
 
 
 public class TestStudent {
     public static void main(String[] args) {
+
+        // 通过无参构造实现初始化
         StudentDemo_2 student = new StudentDemo_2();
 
 //        student.name = "张三";
@@ -94,6 +109,17 @@ public class TestStudent {
 
         System.out.println("--------------");
         student.show();
+
+
+        /**
+         * 构造方法
+         */
+
+        // 通过有参构造快速实现初始化
+        StudentDemo_2 stu2 = new StudentDemo_2("张三", 32);
+        System.out.println(stu2.getName());
+        System.out.println(stu2.getAge());
+
 
     }
 }

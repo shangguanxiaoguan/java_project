@@ -1,6 +1,9 @@
 package objectorientedstudy;
 
 public class StudentDemo_2 {
+
+
+
     // 成员变量
     private String name = "戴琳";    // 验证 this 关键字
     private int age;  //验证 private 关键字
@@ -51,5 +54,20 @@ public class StudentDemo_2 {
         System.out.println(name);
         System.out.println(this.name);
     }
+
+
+    /**
+     * 构造方法
+     */
+
+    // 无参构造
+    public StudentDemo_2(){}
+
+    // 有参构造
+    public StudentDemo_2(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
 
 }
